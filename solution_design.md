@@ -19,8 +19,8 @@ Für die Datenbank haben wir den Standard SQLLite festgelegt.
 Für das Frontend haben wir den Standard VUE.JS festgelegt. 
 
 #### 1.3.1 UI/UX 
-Das User-Interface wird gemäß den Mockups in der Anforderungsspezifikation erstellt.   
-Es gibt keine genauen Vorgaben für die Umsetzung der User-Effects.
+Das User-Interface wird gemäß den Mockups in der Anforderungsspezifikation erstellt.
+Dabei wurden bereits alle Anmerkungen des Kunden berücksichtigt, weshalb diese auch zu beachten sind.
 
 ## 2. Dokumentation 
 Die Dokumentation beschränkt sich auf die im Rahmen des SYP-Unterrichts angefertigten Dokumente (Anforderungsspezifikation, Solution-Design).
