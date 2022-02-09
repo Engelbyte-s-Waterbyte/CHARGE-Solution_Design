@@ -6,10 +6,11 @@ Der Auftraggeber stellte die Anforderung, dass das Backend in ASP.NET und das Fr
 Nach Rücksprache mit dem Auftraggeber dürfen wir nun selbst entscheiden, welche Standards wir verwenden, weil keine enge Integration in bereits bestehende Applikationen notwendig ist.   
 
 ### 1.2 Backend
-Für das Backend haben wir den Standard Go festgelegt.   
+Das Backend wird mit Go Version 1.17.6 umgesetzt.   
 Das Backend wird als JSON-REST-API umgesetzt.      
 Für das Backend sind die Implementierungsrichtlinien der CLEAN-Architecture einzuhalten.   
-Für die Datenbank-Interaktion wird ein [ORM](https://gorm.io) verwendet, somit müssen Primary Keys und Foreign Keys nicht im Technischen Datenmodell erwähnt werden.
+Für die Datenbank-Interaktion wird ein [ORM](https://gorm.io) verwendet v1.22.5 -> Database first.
+Für Gorm verwenden wir den SQLLite Connector [https://github.com/go-gorm/sqlite](https://github.com/go-gorm/sqlite) v
 
 #### 1.2.1 Datenbank
 Für die Datenbank haben wir den Standard SQLLite festgelegt.
