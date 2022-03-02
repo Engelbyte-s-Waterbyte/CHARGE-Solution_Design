@@ -41,7 +41,7 @@ Die Versionsverwaltung des Projektes erfolgt über Github bzw Git.
 ## 3. Solution-Modellierung
 ### 3.1. Klassen (UI, Business Logic, DB, API, ...)
 
-![CHARGE-CD.drawio.png](CHARGE-CD.drawio.png)
+![CHARGE-CD.drawio.svg](CHARGE-CD.drawio.svg)
 
 <!-- 
 #### UI
@@ -100,7 +100,9 @@ Das User-Interface wird gemäß den Mockups in der Anforderungsspezifikation ers
 Um eine möglichst schnelle Reaktion des Backends zu gewährleisten wurde Go gewählt.   
 Die http-Library [https://github.com/julienschmidt/httprouter](https://github.com/julienschmidt/httprouter) v1.3 soll möglichst schnelle http-Kommunikation ermöglichen.
 
-<!-- ### 11.2 Standard-Beschreibung -->
+### 11.2 Standard-Beschreibung
+Siehe standards.pdf
+
 <!-- Normal bruder -->
 
 ### 11.3 Qualitätssicherung
@@ -111,5 +113,5 @@ Die http-Library [https://github.com/julienschmidt/httprouter](https://github.co
 Genaure Details & Werte wurden bereits in der AF-Spezifikation angeführt.
 Diese werden durch folgende Maßnahmen abgedeckt:
 Modul-Tests und Unit-Tests werden im Anschluss an das Solution-Design erstellt, danach werden Entwicklungspakete inkl.
-Verifikation (Tests) auf die Projektmitarbeiter aufgeteilt. 
+Verifikation (Tests) auf die Projektmitarbeiter aufgeteilt.(PSP)
 Getestet werden muss nur die Business-Logic (Package Charge). (Test-Driven-Development)
